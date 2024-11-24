@@ -34,3 +34,14 @@ h2 {
     max-width: 600px;
     margin: 0 auto;
 }
+#skills .row {
+    display: flex;
+    justify-content: space-between; /* Space between cards */
+    gap: 20px; /* Adds consistent spacing between items */
+}
+
+#skills .col-md-4 {
+    flex: 1;
+    min-width: 280px; /* Prevents cards from shrinking too much */
+    text-align: center;
+}
