@@ -1,7 +1,36 @@
-.logo h2 {
-    color: red
+/* General Styles */
+body {
+    scroll-behavior: smooth;
+    background: linear-gradient(135deg, white, #0056b3); /* Light blue to dark blue */
+    color: white;
 }
- .About img {
-    width: 100px;
-    height: 100px;
- }
+
+#home {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+
+.container-blur {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional border */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+/* Specific Section Adjustments */
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
