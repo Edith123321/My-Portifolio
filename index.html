@@ -19,7 +19,7 @@
           <a class="nav-link active" aria-current="page" href="#">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#Skills">Skills</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
@@ -28,8 +28,10 @@
       </ul>
       </div>
   </header>
+  <br>
+
   <body>
-      <section class="container my-5">
+      <section class="container my-5" id="Skills">
         <h2 class="text-center mb-4">My Skills</h2>
         <div class="row">
             <!-- Card 1 -->
@@ -55,18 +57,38 @@
                   </div>
             </div>
             <!-- Card 3 -->
-            <div class="col-md-4">
+            <div class="col-md-4" >
                 <div class="card" style="width: 18rem;">
                     <img src="bootstrap.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Bootstrap</h5>
                       <p class="card-text">I use Bootstrap to build responsive, mobile-friendly websites efficiently.</p>
-                      <a href="#" class="btn btn-danger">See Projects</a>
+                      <a href="" class="btn btn-danger">See Projects</a>
                     </div>
                   </div>
             </div>
         </div>
     </section>
-    
+    <br>
+    <section id="contact" class="py-5 text-black">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <form action="https://formsubmit.co/your-email@example.com" method="POST">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger">Send Message</button>
+            </form>
+        </div>
+    </section>
   </body>
 </html> 
