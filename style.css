@@ -1,8 +1,8 @@
 /* General Styles */
 body {
     scroll-behavior: smooth;
-    background: linear-gradient(135deg, white, #0056b3); /* Light blue to dark blue */
-    color: white;
+    background: linear-gradient(135deg, #f1f2f4, #020002); /* Light blue to dark blue */
+    
 }
 
 #home {
@@ -44,4 +44,9 @@ h2 {
     flex: 1;
     min-width: 280px; /* Prevents cards from shrinking too much */
     text-align: center;
+}
+
+/* Make Text in Skills Section Black */
+#skills .col-md-4 h3, #skills .col-md-4 p {
+    color: black; /* Sets the text color to black */
 }
