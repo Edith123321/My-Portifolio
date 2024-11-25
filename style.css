@@ -5,13 +5,17 @@ body {
     
 }
 header{
-    background-image: linear-gradient(180deg, #c4b6fd, #93acfc);
+    background-image: linear-gradient(180deg, rgb(244, 18, 180), blue);
+    
 }
+
 .nav-link {
     font-weight: 500;
     color: #333;
 }
-
+.span-header {
+    color: rgb(47, 68, 174);
+}
 #home {
     
     display: flex;
